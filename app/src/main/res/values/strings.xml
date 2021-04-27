@@ -1,0 +1,317 @@
+<resources>
+    <string name="app_name">FitForLife</string>
+    <string name="login">Login</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">REGISTER</string>
+    <string name="signUp">Sign Up</string>
+    <string name="fullName">Full Name</string>
+    <string name="EnterFullName">Enter Full Name</string>
+    <string name="EnterEmail">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="email">Email</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="info">Info</string>
+    <string name="language">Language</string>
+    <string name="messages">Messages</string>
+    <string name="EditProfilePic"> <u> Edit Picture </u></string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ChangeLanguage">Change Language</string>
+    <string name="password">Password</string>
+    <string name="age">Age</string>
+    <string name="phone">phone</string>
+    <string name="groupName">Group Name</string>
+    <string name="EditInfo">Edit Info</string>
+    <string name="dateString">Date</string>
+    <string name="time">Time</string>
+    <string name="not_going">Not Going</string>
+    <string name="weight">Weight</string>
+    <string name="waistChestButtocks"><![CDATA[Waist , Chest & Buttocks]]></string>
+    <string name="arms"><![CDATA[Left & Right Arms]]></string>
+    <string name="thighs"><![CDATA[Left & Right Thighs]]></string>
+    <string name="payments">Payments</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="trainee">Trainee</string>
+    <string name="coach">Coach</string>
+    <string name="groups">Groups</string>
+    <string name="add_group">Add Group</string>
+    <string name="group_name">Group Name</string>
+    <string name="number_of_trainee">Number Of Trainee</string>
+    <string name="select_session_day">Session Day</string>
+    <string name="add_trainee">Add Trainee</string>
+    <string name="sessionNumber">Session number</string>
+    <string name="select_session_time">Session Time</string>
+    <string name="edit_trainee_info">Edit Trainee Info</string>
+    <string name="edit_group">Edit Group</string>
+    <string name="select_session_duration">Duration</string>
+    <string name="allTrainee">All Trainee</string>
+    <string name="add_Progress">Add Progress</string>
+    <string name="displayFullName">Show Full Name</string>
+    <string name="waist">Waist</string>
+    <string name="buttocks">Buttocks</string>
+    <string name="rightArm">Right Arm</string>
+    <string name="leftArm">Left Arm</string>
+    <string name="rightThigh">Right Thigh</string>
+    <string name="leftThigh">Right Thigh</string>
+    <string name="Sound">sound</string>
+    <string name="profile">Profile</string>
+    <string name="reschedule">Reschedule</string>
+    <string name="navigation">Navigation</string>
+    <string name="about">About</string>
+    <string name="userName">User Name</string>
+    <string name="description">some info ..</string>
+    <string name="canceledSessions">Canceled Session</string>
+    <string name="session">Session</string>
+    <string name="cancelSession">Cancel Session</string>
+    <string name="takeAttendance">Take Attendance</string>
+    <string name="goalWeight">Goal Weight</string>
+    <string name="lose02">Lose 0.2 kg per week</string>
+    <string name="lose05">Lose 0.5 kg per week</string>
+    <string name="lose08">Lose 0.8 kg per week</string>
+    <string name="lose1">Lose 1 kg per week</string>
+    <string name="maintain">Maintain Weight</string>
+    <string name="gain02">Gain 0.2 kg per week</string>
+    <string name="gain05">Gain 0.5 kg per week</string>
+    <string name="weeklyGoal">Weekly Goal</string>
+    <string name="Goals">Goals</string>
+    <string name="partOfTeam">Be Part Of Our Team</string>
+    <string name="coachName">Coach Name</string>
+    <string name="enter_phone">Enter Phone #</string>
+
+    <string-array name="weekDays">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="weekDaysEn">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="mothsOfTheYear">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="goals">
+        <item name="lose02">Lose 0.2 kg per week</item>
+        <item name="lose05">Lose 0.5 kg per week</item>
+        <item name="lose08">Lose 0.8 kg per week</item>
+        <item name="lose1">Lose 1 kg per week</item>
+        <item name="maintain">Maintain Weight</item>
+        <item name="gain02">Gain 0.2 kg per week</item>
+        <item name="gain05">Gain 0.5 kg per week</item>
+    </string-array>
+
+    <string-array name="payment_methods">
+        <item>Cash</item>
+        <item>Credit card</item>
+        <item>Check</item>
+        <item>Bank transfer</item>
+    </string-array>
+
+    <string-array name="payment_methodsEn">
+        <item>Cash</item>
+        <item>Credit card</item>
+        <item>Check</item>
+        <item>Bank transfer</item>
+    </string-array>
+
+
+    <string-array name="measurements">
+        <item>Weight</item>
+        <item>Waist ,Chest And Buttocks</item>
+        <item>Arms</item>
+        <item>Thighs</item>
+    </string-array>
+
+    <string-array name="ageRange">
+        <item>13-</item>
+        <item>13–18</item>
+        <item>19–30</item>
+        <item>30+</item>
+    </string-array>
+
+    <string-array name="numberPickerDuration">
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>60</item>
+        <item>75</item>
+        <item>90</item>
+    </string-array>
+
+    <string name="postPhoto">"Post "</string>
+    <string name="Close">close</string>
+    <string name="Description">Description</string>
+    <string name="add_post">Add Post</string>
+    <string name="canceledSession">Canceled Session</string>
+    <string name="add_session">Add session</string>
+    <string name="appLogo">AppLogo</string>
+    <string name="homePage">Home</string>
+    <string name="more">More</string>
+    <string name="like">Like</string>
+    <string name="add_comment">Comment</string>
+    <string name="view_all_comments">View All Comments</string>
+    <string name="add_a_comment">Add a comment…</string>
+    <string name="post">POST</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="photo">Photo</string>
+    <string name="session_day">Day</string>
+    <string name="session_number">Number</string>
+    <string name="session_duration">Duration</string>
+    <string name="min">min</string>
+    <string name="studio">Studio</string>
+    <string name="enter_studio_name">Enter Studio Name</string>
+    <string name="type">Type</string>
+    <string name="deleteSession">Delete Session</string>
+    <string name="titleCancelSession">Cancel Session</string>
+    <string name="deleteSessionMsg">Are you sure You want to Delete this Session ? This action cannot be undone</string>
+    <string name="cancelSessionMsg">Are you sure You want to Cancel this Session ? You Can Reschedule Later</string>
+    <string name="going">Going</string>
+    <string name="month">Month</string>
+    <string name="amount">Amount</string>
+    <string name="method">Method</string>
+    <string name="year">Year</string>
+    <string name="noMethod">Not Paid</string>
+    <string name="allGroups">All groups</string>
+    <string name="progress">Progress</string>
+    <string name="chest">Chest</string>
+    <string name="toReachGoal">Kg To Reach Your Goal</string>
+    <string name="reachedGoal">You Have Reached Your Goal</string>
+    <string name="userReachedGoal"> Reached Goal Weight</string>
+    <string name="startingWeight">Starting Weight</string>
+    <string name="change">Change</string>
+    <string name="currentWeight">Current Weight</string>
+    <string name="congratsMsg">Congrats ! You Have Reached Your Wight Goal</string>
+    <string name="manager">manager</string>
+    <string name="newCoach">Add Coach</string>
+    <string name="reports">Reports</string>
+    <string name="deleteCoach">Delete Coach</string>
+    <string name="deleteCoachMsg">Are You Sure You Want to Delete this Coach?</string>
+    <string name="edit_Coach_info">Edit Coach Info</string>
+    <string name="toReachTheirGoal">To Reach Goal</string>
+    <string name="needtolose">Needs to lose</string>
+    <string name="kg">Kg</string>
+    <string name="hasReachedgoal">Reached Her Goal</string>
+    <string name="SearchTrainee">Search Trainee…</string>
+    <string name="type_a_message">Type a message…</string>
+    <string name="send">Send</string>
+    <string name="notifications">Notifications</string>
+    <string name="search">Search…</string>
+    <string name="chooseGoal">Choose Your Goal</string>
+    <string name="group">Group</string>
+    <string name="selectDay">Please Select A Day!</string>
+    <string name="selectValidDay">Please Select A  Valid Day!</string>
+    <string name="removedGroup">Removed Group From Group List Successfully</string>
+    <string name="deleteGroupFailed">Error Deleting Group</string>
+    <string name="deleteGroupFailedMsg">Change Group For Trainee Before Deleting</string>
+    <string name="resCanceledSession">Rescheduled Canceled Session</string>
+    <string name="AboutUs">About Us</string>
+    <string name="kgToReachGoal">Kg to reach Goal :</string>
+    <string name="noWeightGoalSet">Weight Goal is Not Set</string>
+    <string name="NoProgressSet">No Progress Set</string>
+    <string name="payment_message">Updated a new payment</string>
+    <string name="cancel_message">Canceled session of</string>
+    <string name="not_attending_message">is not attending on</string>
+    <string name="attending_message">is attending on</string>
+    <string name="measurment_message">Added new measurements on</string>
+    <string name="like_message">liked your post</string>
+    <string name="comment_message">Commented:</string>
+    <string name="reschedule_message">Rescheduled canceled session for</string>
+    <string name="deleteTrainee">Delete Trainee</string>
+    <string name="deleteTraineeMsg">Are you sure You want to Delete this Trainee ?</string>
+    <string name="deleteGroup">Delete Group</string>
+    <string name="deleteGroupMsg">Are you sure You want to Delete this Group ?</string>
+    <string name="yes">Yes</string>
+    <string name="calendar">Calendar</string>
+    <string name="home">Home</string>
+    <string name="unpaid_report">Unpaid Report</string>
+    <string name="goals_report">Goals Report</string>
+    <string name="deletePayment">Delete Payment</string>
+    <string name="deletePaymentMsg">Are you sure You want to Delete this Payment?</string>
+    <string name="updatedGoal_message">updated weight goal to</string>
+    <string name="setGoal_msg">Set Your Goal Weight</string>
+    <string name="setWeeklyGoal_msg">Choose Your Weekly Goal</string>
+    <string name="reachUs">Call us on</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook">Facebook</string>
+    <string name="resetPasswordEmailSent"> "Email sent…
+        If there is an account associated with this email address you will receive an email with a link to reset your password. Once you have created your new password, you may sign-in."</string>
+    <string name="submit">SUBMIT</string>
+    <string name="resetPassword">Reset Password</string>
+    <string name="failedSendingEmail">Sending Emaill Failed!</string>
+    <string name="ManagerAlreadyExist">Manager for This Studio already Exists!</string>
+    <string name="somethingWentWrong">Something went wrong, Please try again later!</string>
+    <string name="payment_reminder_message">Payment reminder for</string>
+    <string name="sendReminder">Send Payment Reminder</string>
+    <string name="sendReminderMsg">Are you sure you want to send this reminder?</string>
+    <string name="waze" translatable="false">Waze</string>
+    <string name="noLocation">Location has not been set</string>
+    <string name="removedTraineeSucc">Removed Trainee From Trainee List Successfully</string>
+    <string name="removedTraineeFail">Failed to Remove Trainee From Trainee List</string>
+    <string name="removedCoachSucc">Removed Coach From Group List Successfully</string>
+    <string name="removedCoachFail">Failed to Remove Coach From Group List</string>
+    <string name="errorDeletingCoach">Error Deleting Coach</string>
+    <string name="changeGroupCoach">Update Coach For These Groups</string>
+    <string name="wazeInfo_msg">"Do not forget to delete excess text "</string>
+    <string name="close">Close</string>
+    <string name="wazeLink_msg">example : https://waze.com/ul/hsvc5y7rk4</string>
+    <string name="SearchCoach">Search Coach…</string>
+    <string name="likes">Likes</string>
+    <string name="coaches">Coaches</string>
+    <string name="ageReport">Age Report</string>
+    <string name="joinedReport">Joined Report</string>
+    <string name="monthly_sum">monthly sum</string>
+    <string name="allMethods">All methods</string>
+    <string name="allAges">All Ages</string>
+    <string name="age_report">Age Report</string>
+    <string name="addSessionFailed">Failed adding session</string>
+    <string name="addSessionFailedMsg">This session overlaps with the following sessions:</string>
+    <string name="SearchGroup">Search Group…</string>
+    <string name="_13">13-</string>
+    <string name="_13_18">13–18</string>
+    <string name="_19_30">19–30</string>
+    <string name="_30">30+</string>
+    <string name="outOf">out of</string>
+    <string name="agePie_percentage">Trainees in Numbers and Percentages:</string>
+    <string name="traineeReachedGoal">Trainees who reached their goal:</string>
+    <string name="goalBarMsg">percentage of coaches trainees who reached their goal</string>
+    <string name="goalBarCoachMsg">percentage of trainees who reached their goal in different groups</string>
+    <string name="sum">Sum</string>
+    <string name="joined">Joined</string>
+    <string name="sumPayment">Sum Payment</string>
+    <string name="sumJoined">Sum Joined</string>
+    <string name="JoinedTo">Joined To</string>
+    <string name="in">In</string>
+    <string name="totalPaymentIn">Total Payments In</string>
+    <string name="totalPaymentsFor">Total Payments For</string>
+    <string name="sumOfGroups">Groups sum</string>
+    <string name="sumOfTrainees">Sum of Trainees</string>
+    <string name="availablePlaces">Available places in group</string>
+    <string name="sumOfCoaches">Sum of coaches</string>
+</resources>

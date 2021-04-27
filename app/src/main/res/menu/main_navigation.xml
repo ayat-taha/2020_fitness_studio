@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/calendar"
+        android:title="@string/calendar"
+        android:icon="@drawable/ic_calendar" />
+
+    <item
+        android:id="@+id/progress"
+        android:title="@string/progress"
+        android:icon="@drawable/ic_progress" />
+    <item
+
+        android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home" />
+
+    <item
+
+        android:id="@+id/payments"
+        android:title="@string/payments"
+        android:icon="@drawable/ic_payment" />
+    <item
+
+        android:id="@+id/profile"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_profile" />
+</menu>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/White"
+        android:orientation="vertical"
+        tools:context=".Activities.GoalsReportActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/reportAgeGroupSpinner"
+                android:layout_width="0dp"
+                android:layout_height="?attr/dropdownListPreferredItemHeight"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight=".45"
+                android:background="@drawable/card_frame_square_left"
+                android:dropDownWidth="wrap_content"
+                android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
+                android:dropDownSelector="@color/neonOrange"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:popupBackground="@android:color/white"
+                android:popupElevation="3dp"
+                android:spinnerMode="dropdown"
+                android:stateListAnimator="@drawable/spinner_sla"
+                android:textAlignment="textStart" />
+
+            <Spinner
+                android:id="@+id/reportAgeSpinner"
+                android:layout_width="0dp"
+                android:layout_height="?attr/dropdownListPreferredItemHeight"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight=".45"
+                android:background="@drawable/card_frame_square_left"
+                android:dropDownWidth="wrap_content"
+                android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
+                android:dropDownSelector="@color/neonOrange"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:popupBackground="@android:color/white"
+                android:popupElevation="3dp"
+                android:spinnerMode="dropdown"
+                android:stateListAnimator="@drawable/spinner_sla"
+                android:textAlignment="textStart" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/inputReportSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/dropdownListPreferredItemHeight"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/cardframe"
+            android:drawableStart="@drawable/ic_search_g"
+            android:hint="@string/SearchTrainee"
+            android:inputType="textVisiblePassword"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp" />
+
+        <ImageView
+            android:id="@+id/pieChartBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:contextClickable="true"
+            android:src="@drawable/ic_pie"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ageReportLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/numOfAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/neonOrange"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/outOf"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/numOfAllAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/neonOrange"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listForAgeReport"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10.0sp" />
+
+
+    </LinearLayout>
+</FrameLayout>

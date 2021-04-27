@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context=".Activities.PaymentsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilePicturePayment"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_girl" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profilePicturePayment"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/userName"
+        android:id="@+id/userNamePayment"
+        android:textSize="18sp"
+        />
+
+    <Spinner
+        android:id="@+id/yearSpinner"
+        android:layout_width="300dp"
+        android:layout_height="?attr/dropdownListPreferredItemHeight"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/userNamePayment"
+        android:layout_margin="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/cardframe"
+        android:dropDownWidth="wrap_content"
+        android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:popupBackground="@android:color/white"
+        android:popupElevation="3dp"
+        android:spinnerMode="dropdown"
+        android:dropDownSelector="@color/neonOrange"
+        android:stateListAnimator="@drawable/spinner_sla"
+        android:textAlignment="center" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/payments_Months"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/yearSpinner"
+        android:layout_height="wrap_content" />
+
+    <!--Bottom Navigation Bar-->
+    <include
+        android:id="@+id/included"
+        layout="@layout/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

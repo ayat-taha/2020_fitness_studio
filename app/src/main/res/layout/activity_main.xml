@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/login2">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/logo_image"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/appLogo"
+        android:src="@drawable/logo_white" />
+
+
+    <EditText
+        android:id="@+id/editText_username"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/logo_image"
+        android:autofillHints=""
+        android:hint="@string/EnterEmail"
+        android:textColorHint="@color/White"
+        android:textColorHighlight="@color/White"
+        android:shadowColor="@color/White"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/White"/>
+
+    <EditText
+
+        android:id="@+id/editText_password"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editText_username"
+        android:inputType="textPassword"
+        android:hint="@string/enter_password"
+        android:textColor="@color/White"
+        android:textColorHint="@color/White"
+        android:backgroundTint="@color/black"
+
+        android:importantForAutofill="no" />
+    <!--        android:onClick="login_onClick"-->
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+android:layout_below="@+id/editText_password"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/cancelbtn"
+        android:textColor="@color/neonOrange"
+        android:onClick="OnClickLogin"
+        android:text="@string/login" />
+
+    <TextView
+        android:id="@+id/textview_forgotpass"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/button_login"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:text="@string/forgot_password"
+        />
+
+    <Button
+        android:id="@+id/button_signup"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textview_forgotpass"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/cancelbtn"
+        android:onClick="OnClickSignUp"
+        android:textColor="@color/neonOrange"
+        android:text="@string/signUp"/>
+</RelativeLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginTop="10dp">-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="35dp"-->
+<!--                android:text="@string/not_registered"-->
+<!--                android:textColor="#ffffff"/>-->
+<!--            <TextView-->
+<!--                android:id="@+id/textview_register"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="35dp"-->
+<!--                android:paddingLeft="10dp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="#ff0006"-->
+<!--                android:textSize="16dp"-->
+<!--                android:text="@string/register"/>-->
+<!--    </LinearLayout>-->
+
+
+

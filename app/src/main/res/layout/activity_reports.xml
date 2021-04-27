@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fit"
+    tools:context=".Activities.ReportsActivity">
+
+    <TextView
+        android:id="@+id/Reports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="@string/reports"
+        android:textColor="@color/neonOrange"
+        android:textSize="30sp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Reports"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:useDefaultMargins="true">
+
+
+        <Button
+            android:id="@+id/paymentsReportButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/round_button"
+            android:drawableTop="@drawable/ic_payment"
+            android:paddingTop="20dp"
+            android:text="@string/unpaid_report"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/goalReportButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/round_button"
+            android:drawableTop="@drawable/ic_goal"
+            android:paddingTop="20dp"
+            android:text="@string/goals_report"
+            android:textAllCaps="false"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/monthlyIncomeButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/round_button"
+            android:drawableTop="@drawable/ic_payment"
+            android:paddingTop="20dp"
+            android:text="@string/monthly_sum"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/ageReportButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/round_button"
+            android:drawableTop="@drawable/ic_age"
+            android:paddingTop="20dp"
+            android:text="@string/age_report"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/joinedReport"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/round_button"
+            android:drawableTop="@drawable/ic_addtrainee"
+            android:paddingTop="20dp"
+            android:textAllCaps="false"
+            android:text="@string/joinedReport"
+            android:textSize="14sp" />
+
+<!--        <Button-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="120dp"-->
+<!--            android:layout_margin="30dp"-->
+<!--            android:background="@drawable/round_button"-->
+<!--            android:drawableTop="@drawable/ic_add"-->
+<!--            android:paddingTop="20dp"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="14sp" />-->
+
+
+
+    </GridLayout>
+
+</RelativeLayout>

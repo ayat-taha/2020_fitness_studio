@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround_fragment"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".Fragments.AddGroup_Fragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/add_group"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:useDefaultMargins="true">
+
+
+        <TextView
+            android:id="@+id/groupNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/group_name"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/addFullnameGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="@string/group_name"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/numberTraineeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:text="@string/number_of_trainee"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <NumberPicker
+            android:id="@+id/addNumberTrainee"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/CoachName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:text="@string/coach"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/coachSpinner"
+            android:layout_width="150dp"
+            android:layout_height="?attr/dropdownListPreferredItemHeight"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/cardframe"
+            android:dropDownWidth="wrap_content"
+            android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
+            android:dropDownSelector="@color/neonOrange"
+            android:paddingStart="5dp"
+            android:paddingEnd="20dp"
+            android:popupBackground="@android:color/white"
+            android:popupElevation="3dp"
+            android:spinnerMode="dropdown"
+            android:stateListAnimator="@drawable/spinner_sla" />
+
+
+    </GridLayout>
+
+    <ListView
+        android:id="@+id/listSessions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grid"
+        android:layout_marginHorizontal="20dp"
+        android:layout_weight="0.1"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="15.0sp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addSession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listSessions"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="60dp"
+        android:contentDescription="@string/add_group"
+        android:src="@drawable/ic_add" />
+
+    <Button
+        android:id="@+id/save_addGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/commonbtn"
+        android:text="@string/save"
+        android:textColor="@color/White"
+        tools:ignore="RelativeOverlap" />
+
+    <Button
+        android:id="@+id/cancel_addGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/cancelbtn"
+        android:text="@string/cancel"
+        android:textColor="@color/neonOrange" />
+
+
+</RelativeLayout>

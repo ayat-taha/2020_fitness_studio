@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/wazeInfoImage"
+        android:layout_width="290dp"
+        android:layout_height="260dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:src="@drawable/waze_info"
+        android:contentDescription="@string/photo" />
+
+    <TextView
+        android:id="@+id/txtCustomToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="@string/wazeInfo_msg"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="@string/wazeLink_msg"
+        android:textSize="20sp" />
+</LinearLayout>

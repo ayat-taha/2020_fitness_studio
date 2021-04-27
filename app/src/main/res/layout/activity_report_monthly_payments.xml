@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical"
+    tools:context=".Activities.Report_monthlyPaymentsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".90"
+            android:background="@drawable/card_frame_round"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/reportGroup"
+                android:layout_width="0dp"
+                android:layout_height="?attr/dropdownListPreferredItemHeight"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp"
+                android:layout_weight=".30"
+                android:background="@color/White"
+                android:dropDownWidth="wrap_content"
+                android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
+                android:dropDownSelector="@color/neonOrange"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:popupBackground="@android:color/white"
+                android:popupElevation="3dp"
+                android:spinnerMode="dropdown"
+                android:stateListAnimator="@drawable/spinner_sla" />
+
+            <Spinner
+                android:id="@+id/reportMonth"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight=".20"
+                android:background="@drawable/card_frame_square"
+                android:dropDownWidth="wrap_content"
+                android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
+                android:dropDownSelector="@color/neonOrange"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:popupBackground="@android:color/white"
+                android:popupElevation="3dp"
+                android:spinnerMode="dropdown"
+                android:stateListAnimator="@drawable/spinner_sla"
+                android:textAlignment="textStart" />
+
+            <Spinner
+                android:id="@+id/reportYear"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".25"
+                android:background="@drawable/card_frame_square"
+                android:dropDownWidth="wrap_content"
+                android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
+                android:dropDownSelector="@color/neonOrange"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:popupBackground="@android:color/white"
+                android:popupElevation="3dp"
+                android:spinnerMode="dropdown"
+                android:stateListAnimator="@drawable/spinner_sla" />
+
+            <Spinner
+                android:id="@+id/reportMethod"
+                android:layout_width="0dp"
+                android:layout_height="?attr/dropdownListPreferredItemHeight"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp"
+                android:layout_weight=".25"
+                android:background="@color/White"
+                android:dropDownWidth="wrap_content"
+                android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
+                android:dropDownSelector="@color/neonOrange"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:popupBackground="@android:color/white"
+                android:popupElevation="3dp"
+                android:spinnerMode="dropdown"
+                android:stateListAnimator="@drawable/spinner_sla" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/paidReport"
+            android:layout_width="0dp"
+            android:layout_height="?attr/dropdownListPreferredItemHeight"
+            android:layout_marginTop="10dp"
+            android:layout_weight=".10"
+            android:onClick="OnClickSearch"
+            android:src="@drawable/ic_search" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/inputReportSearch"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/dropdownListPreferredItemHeight"
+        android:layout_gravity="center_vertical"
+        android:layout_marginHorizontal="60dp"
+        android:background="@drawable/cardframe"
+        android:drawableStart="@drawable/ic_search_g"
+        android:hint="@string/SearchTrainee"
+        android:inputType="textVisiblePassword"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp" />
+
+    <ImageView
+        android:id="@+id/pieChartBtn"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/dropdownListPreferredItemHeight"
+        android:layout_gravity="center_vertical"
+        android:layout_marginHorizontal="60dp"
+        android:src="@drawable/ic_show_chart"
+        android:contextClickable="true"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/monthly_sum"
+            android:textColor="@color/neonOrange"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/monthlySum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/monthly_sum"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listForPaymentsReport"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp" />
+
+</LinearLayout>

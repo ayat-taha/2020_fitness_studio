@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:fillViewport="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:orientation="vertical">
+
+        <nl.dionsegijn.konfetti.KonfettiView
+            android:id="@+id/viewKonfetti"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="300dp"
+            android:layout_height="?attr/dropdownListPreferredItemHeight"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/cardframe"
+            android:dropDownWidth="wrap_content"
+            android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:popupBackground="@android:color/white"
+            android:popupElevation="3dp"
+            android:spinnerMode="dropdown"
+            android:stateListAnimator="@drawable/spinner_sla"
+            android:textAlignment="center" />
+
+
+
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner"
+            android:minHeight="100dp"
+            android:background="@android:color/transparent"
+            android:paddingBottom="50dp" >
+
+
+
+
+        </FrameLayout>
+
+
+        <!--Bottom Navigation Bar-->
+        <include
+            android:id="@+id/included"
+            layout="@layout/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fitforlife">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="stateHidden">
+        <activity android:name=".Activities.Report_MonthlyPaymentChartActivity"></activity>
+        <activity android:name=".Activities.GoalBarChartActivity" />
+        <activity android:name=".Activities.AgeReportPieActivity" />
+        <activity android:name=".Activities.JoinedReportChartActivity" />
+        <activity android:name=".Activities.JoinedReportActivity" />
+        <activity android:name=".Activities.GoalsReportActivity" />
+        <activity android:name=".Activities.AgeReportsActivity" />
+        <activity android:name=".Activities.Report_monthlyPaymentsActivity" />
+        <activity android:name=".Activities.AboutActivity" />
+        <activity android:name=".Activities.ReportsActivity" />
+        <activity android:name=".Activities.MapsActivity" />
+        <activity android:name=".Activities.ChatActivity" />
+        <activity android:name=".Activities.MessagesActivity" />
+        <activity android:name=".Activities.paymentsReportsActivity" />
+        <activity
+            android:name=".Activities.ManagerCoachTraineeGroupsActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".Activities.ManagerCalendarAcitvity" />
+        <activity android:name=".Activities.TraineePaymentsActivity" />
+        <activity android:name=".Activities.PaymentsActivity" />
+        <activity android:name=".Activities.LikesActivity" />
+        <activity android:name=".Activities.CommentsActivity" />
+        <activity android:name=".Activities.PostActivity" />
+        <activity android:name=".Activities.CalendarRescheduleActivity" />
+        <activity android:name=".Activities.RegisterActivity" />
+        <activity android:name=".Activities.RescheduleActivity" />
+        <activity android:name=".Activities.MoreActivity" />
+        <activity android:name=".Activities.AddProgressActivity" />
+        <activity android:name=".Activities.TraineeProgressActivity" />
+        <activity
+            android:name=".Activities.GroupsTraineeActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".Activities.ProgressActivity" />
+        <activity android:name=".Activities.CalendarActivity" />
+        <activity android:name=".Activities.HomeActivity" />
+        <activity android:name=".Activities.ProfileActivity" />
+        <activity android:name=".Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".BackgroundSoundService" />
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>

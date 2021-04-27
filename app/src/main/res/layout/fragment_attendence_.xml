@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+  android:background="@color/LightBlue"
+    android:clickable="true"
+    android:focusable="true"
+        tools:context=".Fragments.Attendance_Fragment">
+
+
+        <TextView
+            android:id="@+id/traineeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/trainee"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/listForAttendence"
+            android:layout_width="wrap_content"
+            android:layout_height="450dp"
+            android:layout_below="@+id/traineeTitle"
+            android:layout_marginHorizontal="20dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="20.0sp" />
+
+    <Button
+        android:id="@+id/save_attendence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:textColor="@color/White"
+        android:background="@drawable/commonbtn"
+        android:layout_marginEnd="25dp"
+        android:layout_below="@id/listForAttendence"
+        android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+

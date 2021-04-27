@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical"
+    tools:context=".Activities.CalendarRescheduleActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/list_item_test"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/canceledSession"
+            android:textColor="@color/neonOrange"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dateForCanceledSession"
+            style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dateString" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/calendarContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/resMonthYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/dateString"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <com.github.sundeepk.compactcalendarview.CompactCalendarView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/compactcalendarRec_view"
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/resMonthYear"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                app:compactCalendarBackgroundColor="@color/White"
+                app:compactCalendarCurrentDayBackgroundColor="@color/LightPink"
+                app:compactCalendarCurrentDayIndicatorStyle="no_fill_large_indicator"
+                app:compactCalendarCurrentDayTextColor="@color/LightPink"
+                app:compactCalendarCurrentSelectedDayBackgroundColor="@color/LightPurple"
+                app:compactCalendarCurrentSelectedDayIndicatorStyle="fill_large_indicator"
+                app:compactCalendarCurrentSelectedDayTextColor="@color/LightBlue"
+                app:compactCalendarDisplayOtherMonthDays="false"
+                app:compactCalendarEventIndicatorStyle="small_indicator"
+                app:compactCalendarMultiEventIndicatorColor="@color/black"
+                app:compactCalendarOtherMonthDaysTextColor="@color/LightBlue"
+                app:compactCalendarTargetHeight="250dp"
+                app:compactCalendarTextColor="@color/black"
+                app:compactCalendarTextSize="14sp" />
+
+            <ListView
+                android:id="@+id/AllEventList"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/compactcalendarRec_view"
+                android:layout_marginHorizontal="10dp"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="10.0sp"
+                android:fadingEdge="none" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/addSession"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="50dp"
+                android:contentDescription="@string/add_session"
+                android:onClick="addOnClick"
+                android:src="@drawable/ic_add" />
+
+
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

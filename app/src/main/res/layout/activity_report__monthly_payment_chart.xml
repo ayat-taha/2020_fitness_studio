@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Report_MonthlyPaymentChartActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewGroup"
+        android:layout_above="@+id/any_chart_view_joined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:id="@+id/chartGroupName"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/groupName"
+            android:textAlignment="center"
+            android:textColor="@color/neonOrange"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <com.anychart.AnyChartView
+        android:id="@+id/any_chart_view_joined"
+        android:layout_width="match_parent"
+        android:layout_height="640dp"
+        android:layout_centerInParent="true" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FitForLife</string>
+    <string name="ChangeLanguage">שנה שפה</string>
+    <string name="ConfirmPassword">אשר סיסמה</string>
+    <string name="EditProfilePic">"ערוך תמונה"</string>
+    <string name="EnterEmail">"הזן דוא\"ל"</string>
+    <string name="EnterFullName">"הזן שם מלא"</string>
+    <string name="email">דוא\"ל</string>
+    <string name="enter_password">הזן את הסיסמה</string>
+    <string name="forgot_password"> שכחת סיסמא?</string>
+    <string name="fullName">שם מלא</string>
+    <string name="info">מידע</string>
+    <string name="language">שפה</string>
+    <string name="login">כניסה</string>
+    <string name="messages">הודעות</string>
+    <string name="not_registered">לא רשום</string>
+    <string name="hello_blank_fragment">rr</string>
+    <string name="register">הירשם</string>
+    <string name="signUp">הירשם</string>
+    <string name="password">סיסמה</string>
+    <string name="EditInfo">עדכון פרטים</string>
+    <string name="age">גיל</string>
+    <string name="groupName">שם קבוצה</string>
+    <string name="phone">מס טלפון</string>
+    <string name="not_going">לא משתתף</string>
+    <string name="thighs">ירכיים</string>
+    <string name="time">שעה</string>
+    <string name="weight">משקל</string>
+    <string name="waistChestButtocks">חזה , מותן ואגן</string>
+    <string name="arms">ידיים</string>
+    <string name="dateString">תאריך</string>
+    <string name="groups">קבוצות</string>
+    <string name="cancel">בטל</string>
+    <string name="trainee">מתאמן/ת</string>
+    <string name="save">שמור</string>
+    <string name="payments">תשלומים</string>
+    <string name="add_group">הוסף קבוצה</string>
+    <string name="add_trainee">הוסף מתאמן</string>
+    <string name="number_of_trainee">מספר מתאמנים</string>
+    <string name="sessionNumber">מספר אימון</string>
+    <string name="select_session_time">שעת אימון</string>
+    <string name="select_session_day">יום אמון</string>
+
+    <string-array name="weekDays">
+        <item>ראשון</item>
+        <item>שני</item>
+        <item>שלישי</item>
+        <item>רביעי</item>
+        <item>חמישי</item>
+        <item>שישי</item>
+        <item>שבת</item>
+    </string-array>
+
+    <string-array name="mothsOfTheYear">
+        <item>ינואר</item>
+        <item>פברואר</item>
+        <item>מרץ</item>
+        <item>אפריל</item>
+        <item>מאי</item>
+        <item>יוני</item>
+        <item>יולי</item>
+        <item>אוגוסט</item>
+        <item>ספטמבר</item>
+        <item>אוקטובר</item>
+        <item>נובמבר</item>
+        <item>דצמבר</item>
+    </string-array>
+
+    <string-array name="payment_methods">
+        <item>מזומן</item>
+        <item>אשראי</item>
+        <item>צק</item>
+        <item>העברה בנקאית</item>
+    </string-array>
+
+    <string name="group_name">שם קבוצה</string>
+    <string name="edit_trainee_info">ערוך פרטי מתאמן</string>
+    <string name="edit_group">ערוך קבוצה</string>
+    <string name="select_session_duration">משך</string>
+    <string name="add_Progress">"הוסף "</string>
+    <string name="rightThigh">ירך ימין</string>
+    <string name="leftThigh">ירך שמאל</string>
+    <string name="Sound">שיר</string>
+    <string name="leftArm">יד שמאל</string>
+    <string name="rightArm">יד ימין</string>
+    <string name="allTrainee">כל המתאמנים</string>
+    <string name="waist">מותן</string>
+    <string name="buttocks">אגן</string>
+    <string name="profile">פרופיל</string>
+    <string name="reschedule">תזמן מחדש</string>
+    <string name="navigation">ניווט</string>
+    <string name="about">אודות</string>
+    <string name="userName">שם משתמש</string>
+    <string name="min">דק\'</string>
+    <string name="studio">סטודיו</string>
+    <string name="enter_studio_name">הכנס שם סטודיו</string>
+    <string name="photo">תמונה</string>
+    <string name="delete">מחק</string>
+    <string name="edit">ערוך</string>
+    <string name="add_a_comment">"הוסף תגובה… "</string>
+    <string name="session_duration">"משך "</string>
+    <string name="session_number">מספר</string>
+    <string name="session_day">יום</string>
+    <string name="add_comment">תגובה</string>
+    <string name="more">עוד</string>
+    <string name="homePage">דף הבית</string>
+    <string name="appLogo">לוגו</string>
+    <string name="add_session">הוסף שיעור</string>
+    <string name="canceledSession">שיעורים מבוטלים</string>
+    <string name="Close">סגור</string>
+    <string name="enter_phone">הכנס טלפון</string>
+    <string name="Goals">יעדים</string>
+    <string name="weeklyGoal">יעדים שבועיים</string>
+    <string name="session">שיעור</string>
+    <string name="cancelSession">בטל שיעור</string>
+    <string name="takeAttendance">נוכחות</string>
+    <string name="view_all_comments">הצג כל התגובות</string>
+    <string name="partOfTeam">הצטרף ל</string>
+    <string name="Description">תיאור</string>
+    <string name="canceledSessions">שיעורים מבוטלים</string>
+    <string name="coachName">שם מאמן</string>
+    <string name="postPhoto">פרסם</string>
+    <string name="add_post">הוסף פוסט</string>
+    <string name="post">פרסם</string>
+    <string name="coach">מאמן/ת</string>
+    <string name="type">סוג</string>
+    <string name="deleteSession">מחק שיעור</string>
+    <string name="deleteSessionMsg">האם אתה בטוח שברצונך למחוק את השיעור הזה? לא ניתן לבטל פעולה זו</string>
+    <string name="going">הצטרף</string>
+    <string name="month">חודש</string>
+    <string name="amount">סכום</string>
+    <string name="method">אמצעי תשלום</string>
+    <string name="year">שנה</string>
+    <string name="noMethod">לא שולם</string>
+    <string name="displayFullName">הצג שם מלא</string>
+    <string name="description">תיאור</string>
+    <string name="goalWeight">משקל מטרה</string>
+    <string name="lose02">להוריד   0.2  ק\"ג בשבוע</string>
+    <string name="lose05">להוריד  0.5  ק\"ג בשבוע</string>
+    <string name="lose08">להוריד   0.8  ק\"ג בשבוע</string>
+    <string name="lose1">להוריד 1 ק\"ג בשבוע</string>
+    <string name="maintain">לשמור על המשקל</string>
+    <string name="gain02">עלייה של 0.2 ק\"ג לשבוע</string>
+    <string name="gain05">עלייה של 0.5 ק\"ג לשבוע</string>
+    <string name="like">אהב</string>
+    <string name="allGroups">כל הקבוצות</string>
+    <string name="comment_message">הגיב/ה:</string>
+    <string name="measurment_message">הוסיף מדידות חדשות</string>
+    <string name="attending_message">מגיע/ה לשיעור ב</string>
+    <string name="not_attending_message">"לא מגיע/ה לשיעור ב "</string>
+    <string name="titleCancelSession">ביטול שיעור</string>
+    <string name="cancelSessionMsg">"האם אתה בטוח שברצונך למחוק את ההפעלה הזו? לא ניתן לתזמן מחדש מאוחר יותר "</string>
+    <string name="progress">התקדמות</string>
+    <string name="chest">חזה</string>
+    <string name="toReachGoal">קג\" כדי להגיע ליעד</string>
+    <string name="reachedGoal">הגעתה ליעד</string>
+    <string name="startingWeight">משקל התחלתי</string>
+    <string name="change">החלף</string>
+    <string name="currentWeight">המשקל הנוכחי</string>
+    <string name="congratsMsg">ברכות! הגעתה למשקל היעד</string>
+    <string name="manager">מנהל</string>
+    <string name="newCoach">הוספת מתאמן</string>
+    <string name="reports">דוח\"ות</string>
+    <string name="deleteCoach">הסרת מאמן</string>
+    <string name="deleteCoachMsg">האם אתה בטוח שאתה רוצה למחוק מאמן זה?</string>
+    <string name="edit_Coach_info">עריכת פרטי מאמן</string>
+    <string name="toReachTheirGoal">בשביל להגיע ליעד</string>
+    <string name="needtolose">צריך להוריד</string>
+    <string name="kg">קג\"</string>
+    <string name="hasReachedgoal">הגיע ליעד</string>
+    <string name="SearchTrainee">חיפוש מתאמן</string>
+    <string name="type_a_message">כתיבת הודעה</string>
+    <string name="send">שלח</string>
+    <string name="notifications">התראות</string>
+    <string name="search">חיפוש</string>
+    <string name="chooseGoal">בחר המטרה שלך</string>
+    <string name="group">קבוצה</string>
+    <string name="selectDay">בבקשה בחר יום!</string>
+    <string name="selectValidDay">בבקשה בחר יום פנוי!</string>
+    <string name="removedGroup">הסרת קבוצה מרשימת קבוצת בוצעה בהצלחה</string>
+    <string name="deleteGroupFailed">ארעה שגיאה בעת הסרת קבוצה</string>
+    <string name="deleteGroupFailedMsg">בצע שיוך לקבוצה אחרת לכל מתאמן לפני הסרת קבוצה זו</string>
+    <string name="resCanceledSession">תזמן מחדש השיעור המבוטל</string>
+    <string name="AboutUs">אודות</string>
+    <string name="kgToReachGoal">קג\" בכדי להגיע ליעד:</string>
+    <string name="noWeightGoalSet">מטרת המשקל אינה מוגדרת</string>
+    <string name="NoProgressSet">לא נקבעה התקדמות</string>
+    <string name="payment_message">עדכן תשלום חדש</string>
+    <string name="cancel_message">שיעור מבוטל ה</string>
+    <string name="like_message">אהב את הפוסט שלך</string>
+    <string name="reschedule_message">תזמן מחדש השיעור המבוטל של</string>
+    <string name="deleteTrainee">הסר מתאמן</string>
+    <string name="deleteTraineeMsg">האם אתה בטוח שאתה רוצה להסיר מתאמן זה?</string>
+    <string name="deleteGroup">הסרת קבוצה</string>
+    <string name="deleteGroupMsg">האם אתה בטוח שאתה רוצה להסיר קבוצה זו?</string>
+    <string name="yes">כן</string>
+    <string name="calendar">לוח שנה</string>
+    <string name="home">דף הבית</string>
+    <string name="unpaid_report">דוח שלא שלמו</string>
+    <string name="goals_report">דוח היעדים</string>
+    <string name="deletePayment">מחק תשלום</string>
+    <string name="deletePaymentMsg">האם אתה בטוח שאתה רוצה למחוק תשלום זה?</string>
+    <string name="updatedGoal_message">עדכון מטרת משקל ל</string>
+    <string name="setGoal_msg">הגדר את משקל היעד שלך</string>
+    <string name="setWeeklyGoal_msg">בחר היעד השבועי</string>
+    <string name="reachUs">התקשר אלנו</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook">Facebook</string>
+    <string name="resetPasswordEmailSent">ההודעה נשלחה</string>
+    <string name="submit">דלג</string>
+    <string name="resetPassword">איפוס סיסמה</string>
+    <string name="failedSendingEmail">שליחת מיל נכשלה!</string>
+    <string name="ManagerAlreadyExist">המנהל לסטודיו זה קיים כעת!</string>
+    <string name="somethingWentWrong">ארעה שגיאה, נסה בזמן אחר!</string>
+    <string name="payment_reminder_message">תזכורת לתשלום עבור</string>
+    <string name="sendReminder">שליחת תזכורת לתשלום</string>
+    <string name="sendReminderMsg">האם אתה בטוח שברצונך לשלוח התזכורת?</string>
+    <string name="noLocation">מיקום לא הוגדר</string>
+    <string name="removedTraineeSucc">המתאמן הוסר מרשימת המתאמנים בהצלחה</string>
+    <string name="removedTraineeFail">הסרת המתאמן מרשימת המתאמנים נכשלה</string>
+    <string name="removedCoachSucc">המאמן הוסר מרשימת הקבוצות בהצלחה</string>
+    <string name="removedCoachFail">הסרת המאמן מרשימת הקבוצות נכשלה</string>
+    <string name="errorDeletingCoach">שגיאה במחיקת המאמן</string>
+    <string name="changeGroupCoach">עדכן מאמן לקבוצות אלה</string>
+    <string name="wazeInfo_msg">אל תשכח למחוק טקסט עודף</string>
+    <string name="close">סגור</string>
+    <string name="wazeLink_msg">דוגמא: https://waze.com/ul/hsvc5y7rk4</string>
+    <string name="SearchCoach">חיפוש מאמן…</string>
+    <string name="userReachedGoal">הגיע למשקל היעד</string>
+
+    <string name="likes">לייקים</string>
+    <string name="monthly_sum">"סכום חודשי "</string>
+    <string name="joinedReport">דוח הצטרפות</string>
+    <string name="coaches">מאמנים/ות</string>
+    <string name="ageReport">דוח גילאים</string>
+    <string name="allMethods">"כל אמצעי התשלום "</string>
+    <string name="allAges">"כל הגילאים "</string>
+    <string name="age_report">"דוח גילאים "</string>
+    <string name="addSessionFailed">"הוספת שיעור נכשלה "</string>
+    <string name="addSessionFailedMsg">"שיעור זה חופף לשיעורים הבאים: "</string>
+    <string name="SearchGroup">חיפוש קבוצה…</string>
+    <string name="_13">13-</string>
+    <string name="_13_18">13–18</string>
+    <string name="_19_30">19–30</string>
+    <string name="_30">30+</string>
+    <string name="outOf">"מתוך "</string>
+    <string name="agePie_percentage">מתאמנים במספרים ואחוזים:</string>
+    <string name="goalBarMsg">אחוז המתאמנים של המאמנים שהגיעו למטרתם</string>
+    <string name="traineeReachedGoal">"מתאמנים שהגיעו למטרתם: "</string>
+    <string name="goalBarCoachMsg">"אחוז המתאמנים שהגיעו למטרתם בקבוצות שונות "</string>
+    <string name="sumOfGroups">"סכום קבוצות "</string>
+    <string name="availablePlaces">"מקומות פנויים בקבוצה "</string>
+    <string name="sumOfTrainees">"סכום המתאמנים "</string>
+    <string name="sumOfCoaches">"סכום המאמנים "</string>
+    <string name="JoinedTo">הצטרף ל</string>
+    <string name="in">ב</string>
+    <string name="joined">הצטרף</string>
+    <string name="sum">סְכוּם</string>
+    <string name="sumJoined">סה\"כ מצטרפים חדשים</string>
+    <string name="sumPayment">סכום תשלום</string>
+    <string name="totalPaymentIn">סך התשלומים ב</string>
+    <string name="totalPaymentsFor">סך התשלומים עבור</string>
+</resources>

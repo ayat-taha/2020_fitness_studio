@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/rescheduleSession"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/dateString" />
+
+    <TextView
+        android:id="@+id/groupName"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rescheduleSession"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:maxLength="50"
+        android:singleLine="true" />
+
+
+    <Button
+        android:id="@+id/rescheduleSessionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/commonbtn"
+        android:text="@string/reschedule"
+        android:textAllCaps="false"
+        android:textColor="@color/White" />
+</RelativeLayout>

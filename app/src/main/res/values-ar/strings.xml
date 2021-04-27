@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FitForLife</string>
+    <string name="not_registered">لم يتم تسجيل</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="arms">الذراعين</string>
+    <string name="thighs">الوركين</string>
+    <string name="waistChestButtocks">الصدر,الخصر والحوض</string>
+    <string name="EditProfilePic">تعديل الصورة</string>
+    <string name="forgot_password">نسيت كلمة المرور</string>
+    <string name="about">حول</string>
+    <string name="add_group">إضافة مجموعة</string>
+    <string name="add_Progress">"إضافة مقاسات "</string>
+    <string name="add_trainee">إضافة متدرب</string>
+    <string name="age">الجيل</string>
+    <string name="allTrainee">جميع المتدربين</string>
+    <string name="buttocks">الأرداف</string>
+    <string name="cancel">إلغاء</string>
+    <string name="canceledSessions">إلغاء الدرس</string>
+    <string name="cancelSession">إلغاء الدرس</string>
+    <string name="ChangeLanguage">تغيير اللغة</string>
+    <string name="ConfirmPassword">التحقق من كلمة المرور</string>
+    <string name="dateString">التاريخ</string>
+    <string name="select_session_duration">المدة</string>
+    <string name="edit_group">تعديل المجموعة</string>
+    <string name="EditInfo">تعديل التفاصيل</string>
+    <string name="edit_trainee_info">تعديل تفاصيل المتدرب</string>
+    <string name="email">البريد الألكتروني</string>
+    <string name="EnterEmail">ادخل البريد الألكترووني</string>
+    <string name="EnterFullName">ادخل الاسم الكامل</string>
+    <string name="enter_password">ادخل كلمة المرور</string>
+    <string name="fullName">الاسم الكامل</string>
+    <string name="gain02">اكتسب 0.2 كيلو كل اسبوع</string>
+    <string name="gain05">اكتسب 0.5 كيلو كل اسبوع</string>
+    <string name="Goals">الأهداف</string>
+    <string name="goalWeight">الوزن المرجو</string>
+    <string name="groupName">اسم المجموعة</string>
+    <string name="group_name">اسم المجموعة</string>
+    <string name="groups">المجموعات</string>
+    <string name="hello_blank_fragment">......</string>
+    <string name="info">التفاصيل</string>
+    <string name="language">اللغة</string>
+    <string name="leftArm">الذراع الأيسر</string>
+    <string name="lose02">خسارة 0.2 كيلو كل اسبوع</string>
+    <string name="lose05">خسارة 0.5 كيلو كل اسبوع</string>
+    <string name="lose08">خسارة 0.8 كيلو كل اسبوع</string>
+    <string name="lose1">خسارة1كيلو كل اسبوع</string>
+    <string name="maintain">المحافظه على الوزن</string>
+    <string name="messages">الرسائل</string>
+    <string name="navigation">الموجّه</string>
+    <string name="not_going">إلغاء الاشتراك</string>
+    <string name="number_of_trainee">عدد المتدربين</string>
+    <string name="password">كلمة المرور</string>
+    <string name="payments">المدفوعات</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="profile">الصفحة الشخصيه</string>
+    <string name="register">التسجيل</string>
+    <string name="reschedule">إعادة بناء الجدول</string>
+    <string name="rightArm">الذراع الأيمن</string>
+    <string name="rightThigh">الفخد الأيمن</string>
+    <string name="leftThigh">الفخد الـأيسر</string>
+    <string name="save">حفظ</string>
+    <string name="session">الدرس</string>
+    <string name="select_session_day">يوم التدريب</string>
+    <string name="sessionNumber">رقم التدريب</string>
+    <string name="select_session_time">ساعة التدريب</string>
+    <string name="displayFullName">عرض الاسم الكامل</string>
+    <string name="signUp">تسجيل الدخول</string>
+    <string name="description">بعض التفاصيل</string>
+    <string name="Sound">الصوت</string>
+    <string name="takeAttendance">تسجيل حضور</string>
+    <string name="time">الزمن</string>
+    <string name="trainee">المتدرب</string>
+    <string name="userName">اسم المستخدم</string>
+    <string name="waist">الخصر</string>
+    <string name="weeklyGoal">الهدف الأسبوعي</string>
+    <string name="weight">الوزن</string>
+
+
+    <string-array name="measurements">
+        <item>وزن</item>
+        <item>الصدر,الخصر والحوض</item>
+        <item>الذراعين</item>
+        <item>الفخدين</item>
+    </string-array>
+
+    <string-array name="goals">
+        <item name="lose02">خسارة 0.2 كيلو كل اسبوع</item>
+        <item name="lose05">خسارة 0.5 كيلو كل اسبوع</item>
+        <item name="lose08">خسارة 0.8 كيلو كل اسبوع</item>
+        <item name="lose1">خسارة 1 كيلو كل اسبوع</item>
+        <item name="maintain">الحفاظ على الوزن</item>
+        <item name="gain02">اكتسب 0.2 كيلو كل اسبوع</item>
+        <item name="gain05">اكتسب 0.5 كيلو كل اسبوع</item>
+    </string-array>
+
+    <string-array name="payment_methods">
+        <item>نقدي</item>
+        <item>بطاقة أئتمان</item>
+        <item>افحص</item>
+        <item>تحويل مصرفي</item>
+    </string-array>
+
+    <string-array name="mothsOfTheYear">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+
+    <string-array name="weekDays">
+        <item>الأحد</item>
+        <item>الأثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+    </string-array>
+    <string name="coach">المدرب</string>
+    <string name="partOfTeam">انظم الى فريقنا</string>
+    <string name="coachName">اسم المدرب</string>
+    <string name="enter_phone">ادخل رقم الهاتف</string>
+    <string name="postPhoto">نشر</string>
+    <string name="Close">اغلاق</string>
+    <string name="Description">وصف</string>
+    <string name="add_post">اضف منشور</string>
+    <string name="canceledSession">دروس ملغية</string>
+    <string name="add_session">إضافة درس</string>
+    <string name="appLogo">شعار</string>
+    <string name="homePage">الصفحة الرئيسيه</string>
+    <string name="more">أيضا</string>
+    <string name="like">أعجبني</string>
+    <string name="add_comment">تعليق</string>
+    <string name="view_all_comments">أظهار جميع التعليقات</string>
+    <string name="add_a_comment">أضافة تعليق</string>
+    <string name="post">نشر</string>
+    <string name="edit">تعديل</string>
+    <string name="delete">حذف</string>
+    <string name="photo">صورة</string>
+    <string name="session_day">يوم</string>
+    <string name="session_number">رقم</string>
+    <string name="session_duration">المدة الزمنية</string>
+    <string name="min">دقيقة</string>
+    <string name="studio">الاستوديو</string>
+    <string name="enter_studio_name">ادخل اسم الاستوديو</string>
+    <string name="type">نوع</string>
+    <string name="deleteSession">حذف الدرس</string>
+    <string name="titleCancelSession">الغاء الدرس</string>
+    <string name="deleteSessionMsg">"هل انت متأكد من حذف هذا الدرس؟لا يمكن القيام بهذه الخطوة "</string>
+    <string name="cancelSessionMsg">"هل انت متأكد من حذف هذا الدرس؟لا يمكن اعادة الجدولة لاحقا "</string>
+    <string name="going">اشتراك</string>
+    <string name="month">شهر</string>
+    <string name="amount">المجموع</string>
+    <string name="method">اسلوب الدفع</string>
+    <string name="year">سنة</string>
+    <string name="noMethod">لم يتم الدفع</string>
+    <string name="allGroups">جميع المجموعات</string>
+    <string name="progress">التقدم</string>
+    <string name="chest">الصدر</string>
+    <string name="toReachGoal">" كيلوغرام 1  للوصول للهدف  "</string>
+    <string name="reachedGoal">وصلت للهدف</string>
+    <string name="startingWeight">الوزن البدائي</string>
+    <string name="change">تغير</string>
+    <string name="currentWeight">الوزن الحالي</string>
+    <string name="congratsMsg">تهانينا! لقد وصلت الوزن المرجو</string>
+    <string name="manager">المدير</string>
+    <string name="newCoach">إضافة مدرب</string>
+    <string name="reports">التقارير</string>
+    <string name="deleteCoach">حذف مدرب</string>
+    <string name="deleteCoachMsg">هل انت متأكد من حذف هذا المدرب؟</string>
+    <string name="edit_Coach_info">تعديل تفاصيل المدرب</string>
+    <string name="toReachTheirGoal">من اجل الوصول للهدف</string>
+    <string name="needtolose">بحاجة لخسارة</string>
+    <string name="kg">كغم</string>
+    <string name="hasReachedgoal">وصل للهدف</string>
+    <string name="SearchTrainee">بحث عن متدرب</string>
+    <string name="type_a_message">كتابة رسالة</string>
+    <string name="send">إرسال</string>
+    <string name="notifications">اشعارات</string>
+    <string name="search">بحث</string>
+    <string name="chooseGoal">اختر هدفك</string>
+    <string name="group">مجموعة</string>
+    <string name="selectDay">من فضلك اختر يومًا!</string>
+    <string name="selectValidDay">من فضلك اختر يومًا متاحًا!</string>
+    <string name="removedGroup">نجحت في حذف المجموعة من القائمة</string>
+    <string name="deleteGroupFailed">حدث خطأ خلال محاولة حذف المجموعة</string>
+    <string name="deleteGroupFailedMsg">قم بتغير المجموعة التي يتبع لها كل متدرب قبل الحذف</string>
+    <string name="resCanceledSession">اعادة جدوله للدرس الذي تم الغاءه</string>
+    <string name="AboutUs">من نحن</string>
+    <string name="kgToReachGoal">كغم من اجل الوصول للهدف:</string>
+    <string name="noWeightGoalSet">لم يتم تحديد الوزن المرجو</string>
+    <string name="NoProgressSet">لم يتم تحديد هدف للتقدم</string>
+    <string name="cancel_message">إلغاء الدرس ال</string>
+    <string name="payment_message">تحديث دفعة جديدة</string>
+    <string name="not_attending_message">لم يسجل حضور</string>
+    <string name="attending_message">سجل حضور</string>
+    <string name="like_message">اعجبه منشورك</string>
+    <string name="sendReminderMsg">هل انت متأكد من انك تريد إرسال هذا التذكير؟</string>
+    <string name="sendReminder">إرسال تذكير للدفع</string>
+    <string name="payment_reminder_message">تذكير مالي الى</string>
+    <string name="somethingWentWrong">حدث خطأ ما،حاول مجددا في وقت لاحق</string>
+    <string name="ManagerAlreadyExist">"مدير الاستوديو موجود حاليا "</string>
+    <string name="failedSendingEmail">فشل إرسال البريدالإلكتروني!</string>
+    <string name="resetPassword">إعادة تعيين كلمة السر</string>
+    <string name="submit">تخطي</string>
+    <string name="resetPasswordEmailSent">جاري إرسال الرسالة</string>
+    <string name="facebook">فيسبوك</string>
+    <string name="instagram">انستغرام</string>
+    <string name="reachUs">تواصل معنا على</string>
+    <string name="setWeeklyGoal_msg">اختر الهدف الأسبوعي</string>
+    <string name="setGoal_msg">حدد الهدف المرجو</string>
+    <string name="updatedGoal_message">تعديل الوزن المرجو الى</string>
+    <string name="deletePaymentMsg">"هل انت متأكد من حذف هذه الدفعه؟ "</string>
+    <string name="deletePayment">حذف الدفعه</string>
+    <string name="goals_report">تقرير الأهداف</string>
+    <string name="unpaid_report">تقرير بالأشخاص اللذين لم يستوفوا الدفع</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="calendar">التقويم الزمني</string>
+    <string name="yes">نعم</string>
+    <string name="deleteGroupMsg">هل أنت متأكد من حذف هذه المجموعة؟</string>
+    <string name="deleteGroup">حذف المجموعة</string>
+    <string name="deleteTraineeMsg">"هل أنت متأكد من حذف هذا المتدرب؟ "</string>
+    <string name="deleteTrainee">حذف المتدرب</string>
+    <string name="reschedule_message">إعادة جدولة الدرس الملغي الى</string>
+    <string name="comment_message">علّق/ت</string>
+    <string name="measurment_message">إضافة قياسات جديدة</string>
+    <string name="noLocation">لم يتم تعيين الموقع</string>
+    <string name="removedTraineeSucc">تمت إزالة متدرب من قائمة المتدربين بنجاح</string>
+    <string name="removedTraineeFail">فشل في إزالة متدرب من قائمة المتدربين</string>
+    <string name="removedCoachSucc">تمت إزالة المدرب من قائمة المجموعة بنجاح</string>
+    <string name="removedCoachFail">فشل في إزالة المدرب من قائمة المجموعة</string>
+    <string name="errorDeletingCoach">خطأ في حذف المدرب</string>
+    <string name="changeGroupCoach">تحديث المدرب لهذه المجموعات</string>
+    <string name="wazeInfo_msg">"لا تنس حذف النص الزائد "</string>
+    <string name="close">أغلق</string>
+    <string name="wazeLink_msg">مثلا : https://waze.com/ul/hsvc5y7rk4</string>
+    <string name="SearchCoach">بحث عن مدرب…</string>
+    <string name="userReachedGoal">وصلت للهدف</string>
+    <string name="likes">إعجابات</string>
+    <string name="monthly_sum">"مبلغ شهري "</string>
+    <string name="ageReport">تقرير الاجيال</string>
+    <string name="coaches">المدربين/ات</string>
+    <string name="joinedReport">تقرير المنضمين الجدد</string>
+    <string name="allMethods">جميع طرق الدفع</string>
+    <string name="allAges">"كل الأعمار "</string>
+    <string name="age_report">"تقرير الأعمار "</string>
+    <string name="addSessionFailed">"فشل إضافة الدرس "</string>
+    <string name="addSessionFailedMsg">"يتداخل هذا الدرس مع الدروس التالية: "</string>
+    <string name="SearchGroup">بحث عن مجموعة…</string>
+    <string name="_13">13-</string>
+    <string name="_13_18">13–18</string>
+    <string name="_19_30">19–30</string>
+    <string name="_30">30+</string>
+    <string name="outOf">" من أصل"</string>
+    <string name="agePie_percentage">المتدربون بالأرقام والنسب:</string>
+    <string name="goalBarMsg">نسبة متدربي المدربين الذين وصلوا إلى هدفهم</string>
+    <string name="traineeReachedGoal">"المتدربون الذين حققوا هدفهم: "</string>
+    <string name="goalBarCoachMsg">"نسبة المتدربين الذين حققوا هدفهم في مجموعات مختلفة "</string>
+    <string name="sumOfGroups">"مجموع المجموعات "</string>
+    <string name="availablePlaces">"الأماكن المتاحة في المجموعة "</string>
+    <string name="sumOfTrainees">"مجموع المتدربين "</string>
+    <string name="sumOfCoaches">"مجموع المدربين "</string>
+    <string name="JoinedTo">انضم ل</string>
+    <string name="in">في</string>
+    <string name="joined">انضم</string>
+    <string name="sum">مجموع</string>
+    <string name="sumJoined">إجمالي الوافدين الجدد</string>
+    <string name="sumPayment">" إجمالي مبلغ الدفع"</string>
+    <string name="totalPaymentIn">إجمالي المدفوعات في</string>
+    <string name="totalPaymentsFor">إجمالي المدفوعات لـ</string>
+</resources>

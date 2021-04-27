@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "920520484236",
+    "firebase_url": "https://fitforlife-a4308.firebaseio.com",
+    "project_id": "fitforlife-a4308",
+    "storage_bucket": "fitforlife-a4308.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920520484236:android:8327b917c349e866b2e2a9",
+        "android_client_info": {
+          "package_name": "com.example.fitforlife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920520484236-hge7pln01fdlsg1ecl0p28olhb9cote3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitforlife",
+            "certificate_hash": "541e6d9efec493b8136fe686c2599aee493b24d7"
+          }
+        },
+        {
+          "client_id": "920520484236-okat4sufvgeik347v4et5aiflrvd9u7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDolrhGHAYEc7mOr2_Lnpj_bFl6ZTTo12E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920520484236-okat4sufvgeik347v4et5aiflrvd9u7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
